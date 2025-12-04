@@ -10,7 +10,7 @@ FieldSafe Vision is a FastAPI + React (Vite/TypeScript) application for capturin
 - GPU/CPU auto-selection; model caching via `MODEL_CACHE_DIR`.
 
 ## Demo
-<video src="demo/FieldSafeVision-demo.webm" controls width="640"></video>
+[Watch the demo on YouTube](https://youtu.be/4tCt9sqMIY8)
 
 ## Why FieldSafe Vision?
 - Turn every snapshot into an actionable safety story: risks, PPE compliance, housekeeping, lighting, and clutter cues are surfaced instantly so supervisors can coach faster and crews stay ahead of hazards.
