@@ -73,7 +73,7 @@ This starts backend and frontend; if self-signed certs exist in `frontend/localh
 
 ## Roles
 - Observer: submits images + metadata (email required). No login.
-- Admin/Supervisor: login via `/admin`, review/manage entries, summaries, delete, and image viewing. Default admin is seeded: `abuhanifah@live.com` / `abu@hanifah.com` (password stored hashed).
+- Admin/Supervisor: login via `/admin`, review/manage entries, summaries, delete, and image viewing. Default admin is seeded: `soilens@soilens.com` / `admin@soilens.com` (password stored hashed).
 - Admins can add/remove other admins from the Admin page; passwords are stored hashed.
 
 ## Notes
