@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+testenv/
+
+# Node/Vite
+frontend/node_modules/
+frontend/dist/
+
+# Local data/artifacts
+captures/
+image_narrator.db
+media/
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+
+# Env/certs
+.env
+frontend/localhost-cert.pem
+frontend/localhost-key.pem

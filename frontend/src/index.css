@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap");
+
+:root {
+  color: #0f172a;
+  background-color: #f8fafc;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.heading h1 {
+  font-size: 20px;
+  margin: 0;
+}
+.brand-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.brand {
+  font-family: "Poppins", "Inter", system-ui, -apple-system, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.brand-icon {
+  font-size: 22px;
+}
+
+.controls,
+.upload {
+  display: grid;
+  gap: 12px;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+button,
+nav a,
+select,
+input[type="file"] {
+  font: inherit;
+}
+
+button {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #0f172a;
+  background: #0f172a;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav a {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #0f172a;
+  text-decoration: none;
+  color: #0f172a;
+  background: #fff;
+}
+
+button.secondary {
+  background: #fff;
+  color: #0f172a;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+video,
+img {
+  width: 100%;
+  height: auto;
+  max-height: 360px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  background: #0b1526;
+  object-fit: cover;
+}
+
+.status {
+  font-size: 13px;
+  color: #475569;
+}
+
+.response {
+  white-space: pre-wrap;
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 14px;
+}
+
+@media (max-width: 640px) {
+  .app {
+    padding: 12px;
+  }
+
+  .heading h1 {
+    font-size: 18px;
+  }
+
+  .buttons,
+  nav.buttons {
+    width: 100%;
+  }
+
+  .buttons button,
+  nav.buttons a {
+    flex: 1;
+    text-align: center;
+  }
+
+  video,
+  img {
+    max-height: 260px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app {
+    max-width: 1000px;
+  }
+  .card {
+    padding: 20px;
+  }
+}

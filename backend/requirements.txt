@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+transformers
+torch
+opencv-python
+pillow
+sqlmodel
+sqlalchemy
+aiosqlite
+passlib
+pyjwt
